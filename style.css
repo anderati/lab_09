@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px dashed red;
-} */
+}
 
 html,
 body {
@@ -13,6 +13,7 @@ h1 {
     color: #0f0e01;
     font-size: 2em;
     font-weight: bold;
+    text-transform: uppercase;
     /* text-align: center; */
 }
 
@@ -34,19 +35,29 @@ p {
     /* text-align: left; */
 }
 
+.pHeader {
+    text-transform: uppercase;
+}
+
 main {
     border: 0.10em dashed #ff0000;
     border: 0.10em dashed #131212;
 }
 
 header{
-    height: 10em;
+    width: 100%;
     background-color: #d4d3d6;
     border: 0.10em dashed #131212;
+    display: flex;
+    justify-items: end;
+    flex-wrap: wrap;
 }
 
 .picture {
+    height: 10em;
+    width: 10em;
     display: flex;
+    justify-content: flex-end;
 }
 
 nav {
@@ -55,15 +66,17 @@ nav {
     border: 0.10em dashed #131212;
     color: #dbb807d4;
     padding: 0.15em;
+    display: flex;
     /* display: inline; */
 }
 
-.article {
+article {
     width: 75%;
     height: 100%;
     /* background-color: #04f0d1; */
     float: left;
     border: 0.10em dashed #131212;
+    /* display: flex; */
 }
 
 aside {
@@ -73,20 +86,37 @@ aside {
     float: right;
     border: 0.10em dashed #131212;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+aside img{
+    height: auto;
+    max-width: 100%;
+}
 
 footer {
-    height: 5em;
     background-color: #20201c;
     border: 0.10em dashed #131212;
     clear: both;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 footer h2{
     color: #ffffff;
 }
-/* footer p{
+
+.footerContainer{
+    display: flex;
+    /*justify-content: space-around; porque no hace nada por separar los p entre si y tengo que usar padding abajo*/
+}
+
+/*no me queda claro porque para que queden los p separados entre si debo añadir las propiedades aqui y no en footer*/
+.footerContainer p{
     color: #fffffff5;
-} */
+    padding: 1em; 
+}
 

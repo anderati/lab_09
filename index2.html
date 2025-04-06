@@ -1,0 +1,167 @@
+<!-- 
+ DO: 
+
+
+
+4. DIV2: los otros en otro div. En los otros no hace falta imágenes, con un texto es suficiente: maquetas de trenes, musica jazz, patinar, etc, … solo un texto centrado en un div. Poner al menos 5 divs en este grupo y probar el flex-wrap, justify-content, etc
+
+DONE:
+1. Header: foto y titulo o/y slogan de la pagina (tu nombre o no)
+2. Pequeño parrafo sobre ti (vale añadir extra texto Lorem Ipsum)
+3. DIV 1: Imágenes de tus hobbies (no vale informatica): los tres principales. Probar también align-items (alineación vertical)
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Resume</title>
+ </head>
+ <body>
+     <main>
+         <header>
+             <div class="headerContainer">
+                 <h1>Jose Ramon G.M. Andrade Manzo</h1>
+                 <p class="pHeader">Cs Quality Assurance | Ads Performance Analyst | Technical Support</p>
+                 
+             </div>
+             <div class="picture">
+                 <img src="img\imagen.jpeg" alt="Foto Guillermo Andrade">
+             </div>
+         </header>
+         <nav>
+             <a href="#education">Education</a>
+             <a href="#experience">Experience</a>
+             <a href="#contact"> Contact</a>
+         </nav>
+         <div class="article">
+             <section>
+                 <h2 id="experience">Work experience</h2>
+                 <h3>Campaign Performance Analyst TikTok Ads.</h3>
+                 <p>
+                     <h4>Atento S.L. for TikTok Ads Platform.</h4>
+                     <p> Apr. 2023 - now</p>
+                     <ul>
+                         <li>
+                             Provide technical support to advertisers, offering expertise in pixel integration,
+                             troubleshooting data discrepancies, and optimizing ad performance through
+                             effective metrics data analytics.
+                         </li>
+                         <li>
+                             Assist advertisers in implementing and troubleshooting pixel integration for accurate tracking and measurement of KPIs.
+                         </li>
+                         <li>
+                             Conduct in-depth analysis of ad campaign metrics, including impressions, CTRs,
+                             conversions, and CPA, to identify areas for improvement and offer data-driven
+                             recommendations.
+                         </li>
+                         <li>
+                             Identify and address technical challenges related to ad tracking, conversion
+                             tracking, and attribution modelling, working closely with advertisers and internal
+                             teams to resolve issues promptly.
+                         </li>
+                         <li>
+                             Selected for the TTMP ProductPro Greenbelt Certification Program and for the
+                             Performance and Delivery Pillar Certification Program.
+                         </li>
+                     </ul>
+                 </p>
+             </section>
+             <section>
+                 <h3> EMEA Customer Success Team Lead</h3>
+                 <p>
+                     <h4>Multiestetica.com by YNS S.L</h4>
+                     <p>Oct. 2021 - Jun. 2022</p>
+                     <ul>
+                         <li>
+                             Provide technical support to advertisers, offering expertise in pixel integration,
+                             troubleshooting data discrepancies, and optimizing ad performance through
+                             effective metrics data analytics.
+                         </li>
+                         <li>
+                             Assist advertisers in implementing and troubleshooting pixel integration for accurate tracking and measurement of KPIs.
+                         </li>
+                         <li>
+                             Conduct in-depth analysis of ad campaign metrics, including impressions, CTRs,
+                             conversions, and CPA, to identify areas for improvement and offer data-driven
+                             recommendations.
+                         </li>
+                         <li>
+                             Identify and address technical challenges related to ad tracking, conversion
+                             tracking, and attribution modelling, working closely with advertisers and internal
+                             teams to resolve issues promptly.
+                         </li>
+                         <li>
+                             Selected for the TTMP ProductPro Greenbelt Certification Program and for the
+                             Performance and Delivery Pillar Certification Program.
+                         </li>
+                     </ul>
+                 </p>
+             </section>
+             <section>
+                 <h3>CS Quality Assurance Specialist / Technical Support
+                     Advisor</h3>
+                 <p>
+                     <h4>WEBHELP S.L for a Big Tech Top Brand.</h4>
+                     <p>May. 2018 - Oct. 2021</p>
+                     <ul>
+                         <li>
+                             Provide technical support to advertisers, offering expertise in pixel integration,
+                             troubleshooting data discrepancies, and optimizing ad performance through
+                             effective metrics data analytics.
+                         </li>
+                         <li>
+                             Assist advertisers in implementing and troubleshooting pixel integration for accurate tracking and measurement of KPIs.
+                         </li>
+                         <li>
+                             Conduct in-depth analysis of ad campaign metrics, including impressions, CTRs,
+                             conversions, and CPA, to identify areas for improvement and offer data-driven
+                             recommendations.
+                         </li>
+                         <li>
+                             Identify and address technical challenges related to ad tracking, conversion
+                             tracking, and attribution modelling, working closely with advertisers and internal
+                             teams to resolve issues promptly.
+                         </li>
+                         <li>
+                             Selected for the TTMP ProductPro Greenbelt Certification Program and for the
+                             Performance and Delivery Pillar Certification Program.
+                         </li>
+                     </ul>
+                 </p>
+             </section>
+         </div>
+         <aside>
+             <h2  id="education">Education</h2>
+             <p>BA International Studies</p>
+             <p>Universidad Central de Venezuela.</p>
+             <p>2003 - 2007</p>
+             <p> Caracas, Venezuela.</p>
+             <h2>Skills</h2>
+             <p>TikTok Ads</p>
+             <p>Excel</p>
+             <p>Tableau</p>
+             <p>Qlik Sense</p>
+             <p>Power Bi</p>
+             <p>Jira</p>
+             <p>CRMs</p>
+             <p>SQL</p>
+         </aside>
+ 
+         <footer>
+             <h2  id="contact">Contact</h2>
+             <div class="footerContainer">
+                 <p>Preferred name: Guillermo Andrade</p>
+                 <p>+34 633 46 19 79</p>
+                 <p>jrgm.am@proton.me</p>
+                 <p>http://www.linkedin.com/in/joserguillermoandradem</p>
+                 <p>Barcelona, 08004.<br>Carrer Piquer, 15.</p>
+             </div>
+         </footer>
+     </main>
+     
+ </body>
+ </html>
